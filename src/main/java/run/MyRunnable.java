@@ -4,7 +4,14 @@ public class MyRunnable implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(" world");
+        int i = 0;
+
+        for(int y = 0; y < 10; y++){
+            i++;
+
+            System.out.println(y);
+        }
+
     }
 
 }
